@@ -1,0 +1,291 @@
+*{
+	padding:o auto;
+	margin:0 auto;
+	box-sizing:border-box;
+	font-family: 'PT Sans', sans-serif;
+}
+	/* font-family: 'Poppins', sans-serif; */
+.container{
+	width:1050px;
+	margin:0 auto;
+}
+/* helper classes */
+a:link,
+a:hover,
+a:focus,
+a:active{
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+	padding:0;
+}
+.text-center{
+	text-align:center;
+}
+.text-white{
+	color:#fff;
+}
+	/* lowercase class specificity is 10 & specificity of footerlinks a class is 11 i.e overheight so,we apply '!important for lowercase class '  */
+.lowercase{
+	text-transform:lowercase !important;
+}
+.ml-0{
+	margin-left: 0 !important;
+}
+.mr-0{
+	margin-right: 0 !important;
+}
+.mr-40{
+	margin-right:40px !important;
+}
+.mr-1col{
+	margin-right:calc(100% /12) !important;
+}
+.mt-0{
+	margin-top: 0 !important;
+}
+.mb-0{
+	margin-bottom: 0 !important;
+}
+.mb-70{
+	margin-bottom:70px !important;
+}
+.mb-20{
+	margin-bottom:20px !important;
+}
+.ml-20{
+	margin-left:20px !important;
+}
+.mb-40{
+	margin-bottom:40px !important;
+}
+.mb-90{
+	margin-bottom:90px !important;
+}
+.mb-130{
+	margin-bottom:130px !important;
+}
+.mb-80{
+	margin-bottom:80px !important;
+}
+.pl-0{
+	padding-left: 0 !important;
+}
+.pl-0{
+	padding-left: 0 !important;
+}
+.pr-0{
+	padding-right: 0 !important;
+}
+.pt-0{
+	padding-top: 0 !important;
+}
+.pb-0{
+	padding-bottom: 0 !important;
+}
+.pt-72{
+	padding-top:72px !important;
+}
+.pr-22{
+	padding-right:22px !important;
+}
+.row,.row::after,.row::before{
+	width:100%;
+	display:table;
+	clear:both;
+}
+.col10,.col4,.col6,
+.col3,.col9,.col12,.col1{
+	padding:0 15px;
+	float:left;
+}
+.col6{
+	/* padding:0 15px; */
+	/* float:left; */
+	width:50%;
+}
+.col3{
+	width:25%;
+}
+
+.col9{
+	width:75%;
+}
+.col10{
+	/* padding:0, 15px; */
+	/* float:left; */
+	width:calc(100% * 10/12);
+}
+/* .col11{ */
+	/* width:calc(100% * 11/12); */
+	/* color:white; */
+/* } */
+.col4{
+	/* padding:0, 15px; */
+	/* float:left; */
+	width:calc(100% * 4/12);
+}
+.col12{
+	width:100%;
+}
+.col1{
+	width:calc(100% /12);
+}
+
+.plOneAndHalf{
+	padding-left:calc(100% * 1.5/12);
+}
+
+
+
+
+/* section heroimg css */
+.heroimg{
+	padding:60px 0px 105px 0px;
+	background-color:#fcdb00;
+}
+.navbar{
+	height:51px;
+	line-height:51px;
+}
+.navbar li{
+	display:inline-block;
+	margin:0 16px;
+}
+.navbar li a{
+	display:inline-block;
+	padding:0 16px;
+	color:#010101;
+	font-size:22px;
+	font-weight:bold;
+	text-transform:capitalize;
+}
+/* .navbar li:nth-child(1){ */
+	/* margin-left: 0; */
+/* } */
+/* .navbar li:nth-child(1)a{ */
+	/* padding-left: 0; */
+/* } */
+/* .navbar li:last-child{ */
+	/* margin-right: 0; */
+/* } */
+/* .navbar li:last-child a{ */
+	/* padding-right: 0; */
+/* } */
+
+.sectionHeading{
+	font-size:32px;
+	font-weight:bold;
+	color:#010101;
+}
+.secSubHeading{
+	font-size:20px;
+	color:#313841
+}
+.secInfo{
+	font-size:16px;
+	color:#555555
+}
+.weblinks li{
+	display:inline-block;
+	margin-right:37px;
+}
+.weblinks i{
+	font-size:34px;
+	color:#010101;
+}
+
+
+
+
+
+/* section features css */
+/* font-family: 'Poppins', sans-serif; */
+.features{
+	padding:120px 0px 160px 0px;
+	
+}
+
+.thumbimg i{
+	font-size:42px;
+	color:#010101;
+}
+.thumbInfo h4{
+	color:010101;
+	font-size:22px;
+	margin-bottom:16px;
+	font-family: 'Poppins', sans-serif;
+	min-height: 66px;
+}
+.thumbInfo p{
+	color:#898989;
+	font-size:16px;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* section footer css */
+.footer{
+	padding:95px 0px 140px;
+	background-color:#010101;
+}
+.footer .sectionHeading{
+	color:#fcdb00;
+	font-family: 'Poppins', sans-serif;
+}
+.footer .secSubHeading{
+	color:#898989;
+	font-family: 'Poppins', sans-serif;
+}
+.submit{
+	background-color:#fcdb00;
+	height:50px;
+	width:125px;
+	display:inline-block;
+	border:1px solid #fcdb00;
+	border-radius:5px;
+	/* margin-left:20px; */
+	cursor:pointer;
+	text-transform:uppercase;
+}
+.email{
+	height:50px;
+	padding:0 25px;
+	display:inline-block;
+	border:1px solid #ffffff;
+	border-radius:5px;
+	width:calc(100% - 190px);
+}
+/* .navbar li i{ */
+	/* font-size:40px; */
+	/* color:#fcdb00; */
+	
+	
+/* } */
+/* .nav li{ */
+	/* color:white; */
+	
+	
+/* } */
+.sociallink li{
+	display:inline-block;
+	margin-right:32px;
+}
+.sociallink i{
+	font-size:36px;
+	color:#fcdb00;
+}
+.text-white{
+	color:#fff;
+}
+/* .mr-1col{ */
+	/* margin-right:calc(100% /12); */
+/* } */
+.footerlinks a{
+	font-size:16px;
+	color:#fff;
+	text-transform:capitalize;
+}
